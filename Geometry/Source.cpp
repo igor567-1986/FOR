@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <conio.h>
 using namespace std;
  
@@ -19,7 +19,7 @@ void main()
 {
 	setlocale(LC_ALL, "rus");
 	int n, m, k;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> n;
 #ifdef SQURE
 	for (int i = 0; i < n; i++)
 	{
@@ -108,7 +108,7 @@ void main()
 
 #ifdef CHESSBOARD
 	
-	cout << "Øàõìàòíàÿ äîñêà." << endl;
+	cout << "Ð¨Ð°Ñ…Ð¼Ð°Ñ‚Ð½Ð°Ñ Ð´Ð¾ÑÐºÐ°." << endl;
 	setlocale(LC_ALL, "C");
 	cout   << "\t\t";
 	for (int i = 0; i < n; i++)cout <<char(i +'A') << " ";
