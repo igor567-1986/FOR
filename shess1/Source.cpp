@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 #define UPPER_LEFT_ANGLE  (char)218
 #define UPPER_RIGHT_ANGLE (char)191
@@ -17,7 +17,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int n;
-	cout << " Ââåäèòå ðàçìåð äîñêè:"; cin >> n;
+	cout << " Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸:"; cin >> n;
 #ifdef CHESS1
 	setlocale(LC_ALL, "C");
 	n++;
