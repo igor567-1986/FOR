@@ -1,4 +1,4 @@
- #include <iostream>
+ï»¿ #include <iostream>
 using namespace std;
 
 void main()
@@ -9,16 +9,16 @@ void main()
 		cout << "Hello";
 	}*/
 	/*int n;
-	cout << "Ââåäèòå êîëè÷åñòâî èòåðàöèè: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ð¸: "; cin >> n;
 	for (int i = 1;i<=n; ++i)
 	{
 		cout << i << "\t";
 	}
 	cout << endl;*/
 
-	cout << "Âîçâåäåíèå â ñòåïåíü." << endl;
+	cout << "Ð’Ð¾Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ð² ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ." << endl;
 	int degree, number, n, i = 0;
-	cout << "Ââåäèòå îñíîâàíèå è ìíîæèòåëü ñòåïåíè:"; cin >> number >> n >> endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¸ Ð¼Ð½Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸:"; cin >> number >> n >> endl;
 	for (n; i < n; ++i)
 	{
 		degree = number * i;
