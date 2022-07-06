@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -10,23 +10,23 @@ void main()
 {
 	setlocale(LC_ALL, "");
 #ifdef TASK_1
-	cout << "Âû÷èñëåíèå ôàêòîðèàëà:" << endl;
+	cout << "Ð’Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ðµ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð»Ð°:" << endl;
     double number, n = 1,;
-	cout << "Ââåäèòå êîíå÷íîå ÷èñëî: "; cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð½ÐµÑ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> number;
 	for (int i = 1; i <= number; ++i)
 	{
 		n = n * i;
 	}
-	cout << "Ôàêòîðèàë ÷èñëà:" << n << endl;
+	cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð°:" << n << endl;
 
 #endif TASK_1
 
 #ifdef TASK_2
-	cout << "Âîçâåäåíèå â ñòåïåíü." << endl;
+	cout << "Ð’Ð¾Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ð² ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ." << endl;
 	double N, a;
 	int	 n;
-	cout << "Ââåäèòå îñíîâàíèå :"; cin >> a;
-	cout << "Ââåäèòå ìíîæèòåëü:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ :"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð½Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒ:"; cin >> n;
 	N = 1;
 	if (n < 0)
 	{
@@ -41,15 +41,15 @@ void main()
 #endif TASK_2
 
 #ifdef TASK_3
-	cout << "Âûâîä ascii êîäîâ ." << endl;
-	setlocale(LC_ALL, "C");// Âîçâðàùàåò êîäèðîâêó ïî óìîë÷àíèþ
+	cout << "Ð’Ñ‹Ð²Ð¾Ð´ ascii ÐºÐ¾Ð´Ð¾Ð² ." << endl;
+	setlocale(LC_ALL, "C");// Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÐºÐ¾Ð´Ð¸Ñ€Ð¾Ð²ÐºÑƒ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
 	for (int i = 1; i < 256; i++)
 	{
 		if (i % 16 == 0)cout << endl;
 		cout << (char)i << '=' << i << ' ';
 	}
 	setlocale(LC_ALL, "");
-	cout << "Âîò è ñêàçà÷êå êîíåö." << endl;
+	cout << "Ð’Ð¾Ñ‚ Ð¸ ÑÐºÐ°Ð·Ð°Ñ‡ÐºÐµ ÐºÐ¾Ð½ÐµÑ†." << endl;
 #endif TASK_3
 
 }
