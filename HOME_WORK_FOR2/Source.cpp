@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 //#define TASK1
@@ -9,7 +9,7 @@ void main()
 	setlocale(LC_ALL, "");
 
 #ifdef TASK1
-	cout << "\t\t\t\tÒàáëèöà óìíîæåíèÿ.";
+	cout << "\t\t\t\tÐ¢Ð°Ð±Ð»Ð¸Ñ†Ð° ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ.";
 	system("color 03");
 	for (int i = 1; i <= 10; i++)
 	{
@@ -23,7 +23,7 @@ void main()
 
 #ifdef TASK2
 	system("color 02");
-	cout << "\t\t\t\t Òàáëèöà ïèôàãîðà.";
+	cout << "\t\t\t\t Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð¿Ð¸Ñ„Ð°Ð³Ð¾Ñ€Ð°.";
 	int n;
 	for (int i = 1; i < 10; i++)
 	{
